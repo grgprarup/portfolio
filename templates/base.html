@@ -1,0 +1,422 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}"/>
+    <noscript>
+        <link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}"/>
+    </noscript>
+</head>
+<body class="is-preload">
+
+{# Sidebar #}
+<section id="sidebar">
+    <div class="inner">
+        <nav>
+            <ul>
+                <li><a href="#intro">Welcome</a></li>
+                <li><a href="#about-me" onscroll="">About me</a>
+                    <ul>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#experiences">Experiences</a></li>
+                        <li><a href="#trainings">Trainings</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+                </li>
+                {#                <li><a href="#experiences">Experiences</a></li>#}
+                <li><a href="#my-projects">My Projects</a></li>
+                <li><a href="#get-in-touch">Get in touch</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+{# End of Sidebar #}
+
+{# Wrapper #}
+<div id="wrapper">
+    {# Intro #}
+    <section id="intro" class="wrapper style1 fullscreen fade-up">
+        <div class="inner">
+            <h1>Welcome</h1>
+            <p>We develop a solutions for problems. Designed and developed by <a href="http://www.codezeronepal.com/">Code
+                Zero Pvt. Ltd.</a><br/> and products are released for free use.</p>
+            <ul class="actions">
+                <li><a href="#about-me" class="button scrolly">Learn more</a></li>
+            </ul>
+        </div>
+    </section>
+    {# End of Intro #}
+
+    {# About Me #}
+    <section id="about-me" class="wrapper style2 spotlights">
+        <section>
+            <a href="" class="image"><img src="{% static 'images/prarup.jpg' %}" alt="profile_image"
+                                          data-position="center center"/></a>
+            <div class="content">
+                <div class="inner">
+                    <h2>Prarup Gurung</h2>
+                    <h3>Co-Founder, Software Developer</h3>
+                    <p>
+                        Machine Learning enthusiast with more than 4 years of experience in academic field and more than
+                        a year of experience in Software Development field. Currently working as Full-Time Software
+                        Developer and Part-Time Lecturer. I believe I am a responsible and hardworking person willing to
+                        learn new things and take on a variety of tasks or projects. Adaptable to changing environments
+                        and working in a team.
+                    </p>
+                    <ul class="actions">
+                        <li><a href="#education" class="button scrolly">Learn More</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    {# End of About Me #}
+
+    {# Education #}
+    <section id="education" class="wrapper style3 fade-up">
+        <div class="inner">
+            <h2>Education</h2>
+            <p>These are places from where I gained theoretical and practical knowledge.</p>
+            <div class="features">
+                <section>
+                    <span class="icon solid major fa-school"></span>
+                    <h3>Shree Balmandir Primary School</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-school"></span>
+                    <h3>Dhaulagiri Boarding School</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-school"></span>
+                    <h3>Shree Janahit Higher Secondary School</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-school"></span>
+                    <h3>Prasadi Academy Higher Secondary School</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-school"></span>
+                    <h3>National College of Computer Studies (NCCS)</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-school"></span>
+                    <h3>Central Department of CSIT</h3>
+                    <p></p>
+                </section>
+            </div>
+        </div>
+    </section>
+    {# End of Education #}
+
+    {# Experiences #}
+    <section id="experiences" class="wrapper style1 fade-up">
+        <div class="inner">
+            <h2>Experiences</h2>
+            <p>These are places where I learned and improved my skills.</p>
+            <div class="features">
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>NCCS Software</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-school"></span>
+                    <h3>National College of Computer Studies (NCCS)</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-school"></span>
+                    <h3>Institute of International Management Science (IIMS)</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>Code Zero Pvt. Ltd.</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-school"></span>
+                    <h3>Asian College of Higher Studies (ACHS)</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-school"></span>
+                    <h3>Orchid International</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-building"></span>
+                    <h3>Paila Nepal</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>Treeleaf Technologies</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>Software Development House Nepal</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>Jankari Tech</h3>
+                    <p></p>
+                </section>
+            </div>
+        </div>
+    </section>
+    {# End of Experiences #}
+
+    {# Trainings #}
+    <section id="trainings" class="wrapper style2 fade-up">
+        <div class="inner">
+            <h2>Trainings</h2>
+            <p>I learned and improved my skills through these trainings.</p>
+            <div class="features">
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>Computer Basic</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>Advanced Computer</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>PHP</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>C#</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>SQL</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>ASP.net</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>Python & Django</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>Jankari Tech</h3>
+                    <p></p>
+                </section>
+            </div>
+        </div>
+    </section>
+    {# End of Trainings #}
+
+    {# Skills #}
+    <section id="skills" class="wrapper style3 fade-up">
+        <div class="inner">
+            <h2>Skills</h2>
+            <p>My skills set that will help to achieve goals in my career.</p>
+            <div class="features">
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>C</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>C++</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>PHP</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>C#</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>SQL</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>ASP.net</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>Python & Django</h3>
+                    <p></p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>Java</h3>
+                    <p></p>
+                </section>
+            </div>
+        </div>
+    </section>
+    {# End of Skills #}
+
+    {# My Projects #}
+    <section id="my-projects" class="wrapper style1 fade-up">
+        <div class="inner">
+            <h2>Projects</h2>
+            <p>These products are free to use for personal or educational purpose. <a href="#get-in-touch">Contact us</a>
+                for enterprise edition.</p>
+            <div class="features">
+                <section>
+                    <span class="icon solid major fa-cog"></span>
+                    <h3>Restaurant Management System (RMS)</h3>
+                    <p>Software for restaurants to place order, generating bills and making daily, weekly, monthly, and
+                        yearly analyzed reports.</p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>Faculty Finder</h3>
+                    <p>Web platform to recommend faculty and recommend vacancies for faculty.</p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-cog"></span>
+                    <h3>Student Management System (SMS)</h3>
+                    <p>Software for schools and college to manage student's records and process bills.</p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-desktop"></span>
+                    <h3>Chat Bot</h3>
+                    <p>Machine Learning based Chat Bot.</p>
+                </section>
+                <section>
+                    <span class="icon solid major fa-link"></span>
+                    <h3>Quiz Application</h3>
+                    <p>Automated quiz application.</p>
+                </section>
+                <section>
+                    <span class="icon major fa-gem"></span>
+                    <h3>Kharid.com</h3>
+                    <p>Ecommerce sites to buy products.</p>
+                </section>
+                <section>
+                    <a href="https://www.google.com" target="_blank"><span class="icon major fa-cog"></span>
+                        <h3>Fake News Detection</h3></a>
+                    <p>Fake News Detection </p>
+                </section>
+            </div>
+            <ul class="actions">
+                <li><a href="" class="button">Learn more</a></li>
+            </ul>
+        </div>
+    </section>
+    {# End of My Projects #}
+
+    {# Get in Touch #}
+    <section id="get-in-touch" class="wrapper style2 fade-up">
+        <div class="inner">
+            <h2>Get in touch</h2>
+            <p>You can send your queries through this form or reach out to my phone or email.</p>
+            <div class="split style1">
+                <section>
+                    <form method="post" action="#">
+                        <div class="fields">
+                            <div class="field half">
+                                <label for="name">Full Name</label>
+                                <input type="text" name="name" id="name"/>
+                            </div>
+                            <div class="field half">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email"/>
+                            </div>
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <ul class="actions">
+                            <li><a href="" class="button submit">Send Message</a></li>
+                        </ul>
+                    </form>
+                </section>
+                <section>
+                    <ul class="contact">
+                        <li>
+                            <h3>Mailing Address</h3>
+                            <span>Batulechaur, Pokhara Lekhnath - 16<br/>
+											Kaski, Gandaki Province<br/>
+											Nepal</span>
+                        </li>
+                        <li>
+                            <h3>Email</h3>
+                            <a href="mailto:grgprarup@gmail.com">grgprarup@gmail.com</a>
+                        </li>
+                        <li>
+                            <h3>Phone</h3>
+                            <span><a href="tel:+9779841156043">+977 (984) 115-6043</a></span>
+                        </li>
+                        <li>
+                            <h3>Social</h3>
+                            <ul class="icons">
+                                <li><a href="https://www.facebook.com/DesignGurung"
+                                       class="icon brands fa-facebook-square" target="_blank"><span
+                                        class="label">Facebook</span></a></li>
+                                <li><a href="https://www.linkedin.com/in/prarup-gurung-0a072259/"
+                                       class="icon brands fa-linkedin-in" target="_blank"><span
+                                        class="label">LinkedIn</span></a></li>
+                                <li><a href="https://github.com/grgprarup" class="icon brands fa-github"
+                                       target="_blank"><span class="label">GitHub</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </section>
+    {# End of Get in Touch #}
+</div>
+{# End of Wrapper #}
+
+{# Footer #}
+<footer id="footer" class="wrapper style1-alt">
+    <div class="inner">
+        <ul class="menu">
+            <li>&copy; 2020
+                <script>new Date().getFullYear() > 2020 && document.write("- " + new Date().getFullYear());</script>
+                Prarup Gurung All rights reserved.
+            </li>
+            <li>Design & Developed by <a href="#intro" class="scrolly">Prarup Gurung</a></li>
+        </ul>
+    </div>
+</footer>
+{# End of Footer #}
+
+{# Scripts #}
+<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+<script src="{% static 'assets/js/jquery.scrollex.min.js' %}"></script>
+<script src="{% static 'assets/js/jquery.scrolly.min.js' %}"></script>
+<script src="{% static 'assets/js/browser.min.js' %}"></script>
+<script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+<script src="{% static 'assets/js/util.js' %}"></script>
+<script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+</html>
