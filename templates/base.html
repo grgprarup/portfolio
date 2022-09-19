@@ -18,8 +18,15 @@
         <nav>
             <ul>
                 <li><a href="#intro">Welcome</a></li>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#about-me" onscroll="">About me</a>
+                    <ul>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#experiences">Experiences</a></li>
+                        <li><a href="#trainings">Trainings</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+                </li>
+                {#                <li><a href="#experiences">Experiences</a></li>#}
                 <li><a href="#my-projects">My Projects</a></li>
                 <li><a href="#get-in-touch">Get in touch</a></li>
             </ul>
@@ -30,7 +37,6 @@
 
 {# Wrapper #}
 <div id="wrapper">
-    {# Intro #}
 </div>
 {# End of Wrapper #}
 
@@ -39,8 +45,10 @@
     <div class="inner">
         <ul class="menu">
             <li>&copy; 2020
-        <script>new Date().getFullYear()>2020&&document.write("- "+new Date().getFullYear());</script> Code Zero Pvt. Ltd. All rights reserved.</li>
-            <li>Design & Developed by <a href="#intro">Code Zero Pvt. Ltd.</a></li>
+                <script>new Date().getFullYear() > 2020 && document.write("- " + new Date().getFullYear());</script>
+                Prarup Gurung All rights reserved.
+            </li>
+            <li>Design & Developed by <a href="#intro" class="scrolly">Prarup Gurung</a></li>
         </ul>
     </div>
 </footer>
