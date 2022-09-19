@@ -16,7 +16,6 @@ importlib-metadata==4.6.4
 jeepney==0.7.1
 joblib==1.2.0
 keyring==23.5.0
-language-selector==0.1
 launchpadlib==1.10.16
 lockfile==0.12.2
 louis==3.20.0
