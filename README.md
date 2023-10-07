@@ -3,8 +3,8 @@ This is a portfolio website made using Django. It is a simple website that can b
 
 ## Install dependencies
 - Python 3.10.12 can be installed from [here](https://www.python.org/downloads/)
-- Django 4.1.1 can be installed from [here](https://www.djangoproject.com/download/)
-- Install Pip 21.3.1 using the following command
+- Django 4.2.6 can be installed from [here](https://www.djangoproject.com/download/)
+- Install Pip 23.2.1 using the following command
     ```
     python -m pip install --upgrade pip
     ```
@@ -78,3 +78,14 @@ This is a portfolio website made using Django. It is a simple website that can b
     python manage.py runserver
     ```
 
+### Create a new app
+- Create a new app using the following command
+    ```
+    python manage.py startapp <app_name>
+    ```
+  
+### Add the app to the project
+- Add the app to the project by adding the following code to the INSTALLED_APPS list in settings.py
+    ```
+    '<app_name>.apps.<App_name>Config',
+    ```
